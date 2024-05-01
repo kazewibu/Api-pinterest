@@ -38,7 +38,7 @@ router.get('/', (req, res) => {
       config = {
         status: 'active',
         creator: 'KazeDevID',
-        endpoint: '/api?text='
+        endpoint: 'https://api-pinterest-kaze-dev-id-plum.vercel.app/api?text='
     }
     res.json(config)
 })
